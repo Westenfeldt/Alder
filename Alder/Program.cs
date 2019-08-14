@@ -18,15 +18,19 @@ namespace Alder
             age1 = float.Parse(age);
 
             
-
+            
             if (age1 > 50)
                 {
                     Console.WriteLine("Du er for gammel");
                 }
-                else if (age1 <= 50)
+                else if (age1 <= 50  && age1 >=30)
                 {
-                    Console.WriteLine("Du er godkendt");
+                    Console.WriteLine("Du er okay");
                 }
+                    else if (age1 < 30)
+                    {
+                Console.WriteLine("Du er for ung");
+                    }
 
 
 
